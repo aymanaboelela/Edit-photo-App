@@ -1,8 +1,9 @@
+import 'package:add_image/View/login.dart';
 import 'package:flutter/material.dart';
 
 import '../core/SizeBox/SizeBoxevertcal.dart';
 import '../core/utils/size_config.dart';
-import 'home_screen.dart';
+
 
 
 
@@ -93,7 +94,7 @@ class _SplashScreenState extends State<SplashScreen>
         Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) =>const  HomeScreen(),
+              builder: (context) =>  LoginPage(),
             ));
       },
     );
